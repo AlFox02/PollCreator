@@ -3,7 +3,7 @@
 
 class vote{
 	private $error="";
-	public function __construct(){}
+# (ignore) public function __construct(){}
 	public function newPoll($poll_id, $creator){
 		if(!$poll_id){ $this->error="Errore! Impossibile creare il poll perchè il nome del poll è mancante o non valido"; 
 		} elseif(!$creator){ $this->error="Errore! Impossibile creare il poll perchè l'id dell'utente è mancante o non valido"; 
